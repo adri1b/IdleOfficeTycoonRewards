@@ -1,0 +1,651 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Win_Main
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : Win_Main
+ identifier : 0x235f9f50016097f2
+ internal_properties : BwAAAAcAAACCifdvKregTTgSDPGpjIxOk1yq/7LjUtLqBlPDLjJHBFsrMQfXS2gTChOfoziP9xsYf1+QZ0uz5H4/iKuu9FftCW5f6ngaK6erhDD55cJoXkj8c+6P235eDLkQV+lCCqHIoZpNAEfd8147VEYDrDGTOSf8pn1V2kOIcXlnoJWRs2UsyueOGc95lpjEGQfBefwvcRzaXSCiRfOe56Y0zeYZ2POvZ9g84R/MMX7h4Y96wZYJoInu5ZiutvxaoJeDCKsJc5ZgYxGEANNzyyVl/R0eFp9Ihouxdc1atGDXFN9b4H2sopGnGMaZBvaTkON3wV0iK4t9kL86pYCBQypZMZxjr/oyXLp1YRsmxCxN61Z1p7JnONHxv7WFYDUVTieMmNZHVs8A2dUZj5wFrJe7MjFE1G3WcEv8wi3Ng8EubjhmGT9EAF4967IeBjGA+LqS7V9Oj9CuJVuXwQSsMYY1s47IyTp3sT/lvMmQDfnQieob0Xtay2Rbe40+i1umwmuI9RXw3ZmVrJzVEKtJx244xz0xk8Qexwbn3vNdpEUUhUKzZK7pGqwOjM6k8OnT9V3LHvTpuSMB8Z0Tm5VFKzEpG6/SSPf9YnlW5/yLBrOBFSuYa3VmIw9foZCKZewtySshtz+YCj/y0eoN3MesAC/Bz6vuDG7+rpRCjEQeQTh0pPCbfBsLpYefz2lCLKR8xdtGydEtpYrG+yHK89kapr6DkZWd+ejhQ19hQN6Dy1Na0OHxlH1YyGb/WHb6ym+5QQhZNOWw2GotDi4gqyV07vjX4SjHgErIEId+Wq/Y09M8gIHcvtrPBSqnZknsKxBipGr1RsprdgappHbP9Lzv0QPeq4sgUWqBKX2z0CjShH57U7FTYg/HDxwTm6xwI6NQ1Y94VLdL3rEm4UPfZTkKK/0kDYLJYZOsEAYzpljcvBp/pWYm0EEC0Oq9tKuRRUCZDOdD7G95/jq3Q/4asa61m5pqUxjZIpXfeDVqyokMsR8Y1Rh9/JWtpD5pI0i0CAL/q+wdV4OVv/mUjasQp3QA4uEqtioPN6h1z+sVBWCXloMp2JGh/N7C1hXmQA0t505KxUUu6WiiDnGMjYkfqV5iVfOpv8wOMAe3KAaOUeIfQgAGi3atbg==
+ properties :
+  width : 500
+  height : 480
+  widthClient : 498
+  heightClient : 448
+ controls :
+  -
+    name : Table_Rewards
+    identifier : 0x235fbb230086453c
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 6
+     width : 486
+     height : 413
+    columns :
+     -
+       name : Col_Code
+       identifier : 0x235fbb23008a453c
+       internal_properties : BwAAAAcAAAB8UyxKWs4LwsDHnvxQ9De0vAy2LWJkIpBJDUEhsedMbZ95ZT79JxP5Fl8Hp0JpV6wezsZMExyD1cCzMTq9f7JFpoP9sSqnTad9OSSOTzkkv1xjrPoGH33O2+6jby233TINH7jwwKDy3xIoWSRVIkSEB+PiG1+faD+u5KPaqe4Sd5hv5jD6cDm+VA==
+       type : 2
+       content :
+        internal_properties : BwAAAAcAAABhiMzEIJ7y3hXVmBfrQ0fro+l9VzkAlQOm8R+KEKooQ4f35GGtN3xFxg3o8BDC1ojPKhZKgJThWch2w/Cbti2W0NWR/Gr9RUxEz13vSGkSz866kyvJM1nxumfPwH6Qa7ZjAmvSEzBzdRQffdPXk23P+Hl1bir+BvsUHyw72gpC7lsVl794EGMYPzW6J9ZHEvupK3cbi28h9xCe2vLhAeAjIPtVvbSZHlzGIzo7h6EJlY5RcG6USzrIISVkXtYlCdzonSVSkqzBbmRwVUA+9dttEslfohWcc9UCGZqVHgky8qdRXV2GrCtWsA2QobmK7Kjrs6Uv/y7hWZ2zg07Ug2Qr8JFLhpLfV4r+hG0AE7F+cgWMG/5LiVR+jVg37GSux2Qe/CGCecdutSkXf/fmpsXCFa1KxwaSMz+3FykbR6e9iyTq2JxC5s/+WoZrvlXfxHTgeWLWSp+yxDclrObnhYAkQUPn+SsJ+MDDZi6kIFisVR7aBWAdy9V/vqkrcceQADSzuRmbOcZPiU9574iU2RHNIaSnTmwoRfY+Oy1xOmK1MmXnIMvJNFPMBlAG2w5dq+tc+e/f852wzpuD
+        properties : {}
+        type : 2
+       code_elements :
+        internal_properties : BwAAAAcAAABsVQ/pR5yS/zOfJ5EnDO36FrYBR/MlTypx1n7KSiaRJQq9hLlMacl7GjlQnyy6YD03QEJKs+g=
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : Col_OS
+       identifier : 0x235fc1e503beabc7
+       internal_properties : BwAAAAcAAADHywaEOSUKjzbVBCAwhkKz5/l91PFUtwr+bpZlI4rcon1Higtvpv8PY+Apj53m0vCsiEDDw5uD8vDmQUK+sA8yGoLekv3TOEJIvYTMaN9ovzdpGAYhfEyTFn6S/iyVsD88nNnOuuKQAAo5hpVA9hHQH+xju4DFWeDa/RrRjwhpfRjIBeGWThiZVCS6hnq86l3ip2dm3g==
+       type : 40
+       content :
+        internal_properties : BwAAAAcAAACmQ3UXieo0fFDnlZiz3smbhFB6XK1Bp3h4SlzhGFt35sX4Wv9CssLa87ryK/wt2INdJ8pOO8aeXSg7+FDO6Ai9FEAudA97fC+j6cm9FgFTGli+neFRsOphMtg4ZwIeF+iuynEgT9o4KXg+0f0P21fZLKElUhgq1mTZqMDZP4W3QaCdE4bElr42oEFiX435iHsS17T7I1HOxISUIHpi3v+orJmyznAlMCDt5OVpiEj3Gs+cQhzgHHnVl5rgd6ntAijABrZF3BkmniR+J7d2LvZUot8i0ZLLq7FOgl/jY7DXCpupd4mevDQ944Fcay1WwuGK2xKhqFj5Sh1+huOhcwo2c7BhflCZLMyHkRT1a43KH+FqPh+tZ2/u
+        properties : {}
+        controls :
+         -
+           name : Img_OS
+           identifier : 0x235fc1ea03e5c059
+           internal_properties : BwAAAAcAAAC6+68r6XHqA1cNQQsSFJZU/mS3VSMPAX2MI1xLNbUHc1PhPHpqA35yF2A8MEhfdjFsTNuE4eU7rxfhlWGEizz61tkWZ+WvsNJM73FKqOaRySMdaG+pVCf9jfIZLFsxXvnT1C4QqhMijeJdCFujxK8I7taNUBj758V4l5JI/kLbxnFbKxrCqycwl9W1/m1QYFRm3p5VTN7q/cIXXHrDpN8W+HDJ9vIQn0JdWT7HnUGkXy+m+woJ42I2r9m5q1pSEHCZ65eWPrdXld1zvZNi/689hdDVoM0eBmfkVI3Hmvsgqm8SnJLshYZUkIw9zV0RF8A3hCY5KgRR3MPzmld302aYqE7q98Etem0I/oAjRxUFEpvp9EXG91F8CKJWCXWimzSD2lqcBKEuEbdhj25aBSh4EGVAyDodgZzLUcsnHV1lMjojofxqOsuXwDrM150jSoHsle7NDTOfFZTMO/s6ucdijqJTiJQjNcycLRquQl//4vVq4ipB8KReHOIE/zLttbSkVfVtzjEf9YnuevKhu0EljVWZ
+           properties :
+            x : 8
+            y : 3
+            width : 16
+            height : 16
+           type : 8
+           code_elements :
+            type_code : 8
+            p_codes : []
+        type : 40
+       controls : []
+       code_elements :
+        internal_properties : BwAAAAcAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 34
+        p_codes :
+         -
+           enabled : false
+         -
+           type : 234
+           enabled : false
+         -
+           type : 43
+           enabled : false
+         -
+           type : 42
+           enabled : false
+     -
+       name : Col_Date
+       identifier : 0x235fd25c07c9fc90
+       internal_properties : BwAAAAcAAABdgyXFMTiTl1jSei0p+CiPkxaPVXtDaNE3RjErc4EW/bfcHuXhBJMGZqcn7eDGanHsaZEzDhoi+VX7F/Uhf4jsVhZDcNVNMVCyPeX+JPSqYwL/y5WDOVd7FFVsP6PNJe6Nx8boikIY10QI5G2M47hu5aihZz4/TT3+ttTeZYy/plryh/bHxgyslyIxdqjACPf1hmU6CXSlxROTZaAVVJ4=
+       type : 2
+       content :
+        internal_properties : BwAAAAcAAACW6CZDQyLPDL40EFL7Iwscq6fRZMdW992MS7/JFBMFx8A6TH6Y4lxytB+zFCvIWdklHxcQ3GO1AcXKcC0SkVv5sT+Aj1Q9gTnVD6hm2UoZWMdJPtHRqs0+joqi4iJPH56WitYsILdZagIPzNdRHBpqv4nTOabI592HKjHmavMFVPQP93QYtu0x816Aus/yp0UURwxmyZbhWNIpn7ref3mReWNWgJiuanYn7SxGLmuRkPf9GivTVxmaFXPxGb7bvOwzwzLR+XggT+ZsMfqnUdl/m88QggmG07xJOgsi2ejDvXqHkGav2FjpOpAK5Z5oyD5IMB/EWeioUzGReH3TCJ6K3a6bzTIrDu6TMVh2X2w3qoJ3uHr4EMNQ1FLWzOgzLgUyXHSwPWhKBkv7mWvlsABgDrsEu/dP700ug6wacY3MN7PmVulMsdsSMTHxMLja9mGk/Kp7VhORv4BqagKDN8mME5Z5pJkoGGkEvTNUbZKpmKu3TjamkJUKW9GhMd4EZYpMSr1qwgB103O9UzueQ6sAUYuRD1Lo177mg2IX1THrWPprjAtyau0=
+        properties : {}
+        type : 2
+       code_elements :
+        internal_properties : BwAAAAcAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : Col_Rewards
+       identifier : 0x235fbb23008b453c
+       internal_properties : BwAAAAcAAADa+h4HJUNskoIzFXE2/u8yf2mkYukEE4S4jG4C7Nj/MOn2JVAgvD01xBvyeyk3qDz0IiPDATs/ngd2qLsqvJn6NrWPiCGlL7Oo1lvsWFial89CivWx95A7/dDgaTQh3HF0y4xcHWwWtZb+poSDK0HaIlr85g9Odo6R0jToYMNFDw1LWTuNC7AgvwOuHFiZ9TY=
+       type : 2
+       content :
+        internal_properties : BwAAAAcAAAAylG6Q6A9XnknU60YNszYc59VhIPETxeb2wfPnn+0NHA9k+Exq94tUl/Cb3KUpQZFBwSSqvoq1obTM3pdMf6qEy0N8acfRcFV08iC02zuwkS1ieRY6i0J/MutFkGpuhOKwoUTprm1+RlP4egSkkgQ+Lpy9g8RSOMB70KA3lwQ3bRjub+54OyW3N66+KowhbaeeMMq51KakXxAKZP/bFQZ0IVZU7qODRjv8oU+nP/SRYR5vwUa+ztJbfIM334GXkDS0cz0406RauLsXJLOEDUgkn/ru33cO/IuXPb6iKOFzyw/2Bz0tqT6Y3gCtazBZHd/T/pY3t3bKz1pS5AnwAeIZRf0sTvxlPggcIwC51tiR64BU4Et/HxtAHMo/eMH/nzGgnowFbRv+/dkF2eDSoYigKV0DdYsv5J7rOKh1BfDKOuhPvvbxm85CzF20DIbqdOqSI7vEeHlT1qdtv6SRLzTsOd1t5Bx5Q+fM96966L/AO7Q7Luaa+YRMnQORxGSwlCm3YsOGVy4J/lYmdh1BOdf6FcG2UMNtd/OFy11wmemJd+GG+/X1oWcsENcNMhs56RSZuy3G
+        properties : {}
+        type : 2
+       code_elements :
+        internal_properties : BwAAAAcAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+    breaks :
+     -
+       internal_properties : BwAAAAcAAABzDc2MzTatvJJX2oiUe/blDyNxyoRz127AW5n5V3aXFQ/9iGqKJ802FQ3uMPHGiAVOpi8EkSp5jhYijBialQIjgKoMJzWAmQaEDIqQa3RCoF+f8wO8/vyvx/QUFIi6wV1thmKk0MmWV+Qre5HD6k2vWc3Yf47+HSmpOp+rYFZXsfLB7sze5gj1PTpos4/7XGd/g1lS0hH5fhGU3KAF6BX2O4oss37YDiYFELV2H4E5hqHFruhYIAiEg0WEC4RMRFx1vC/QRA==
+       top :
+        name : Break_Head
+        identifier : 0x235fe2cd0d8e38c7
+        internal_properties : BwAAAAcAAACqIvvXL14vNB5iwo1V1419gP+/2EPS0klELsBe/N86Gw1kan+bSwo9GbK6fttKQewIjZTVWS9sa+PRsRaZ5OW+tDePjkcx5qmobYg1zbCgRlgedBbRYG+sUkoaZ57ax3vVs9B6AOnpFwRwUtDmisZhXVEJOO4bGCICJvpgk8iOG2UfA8lxXIW48Xnhb0grezKlTxRGWp8KFKx0PAR3E7q/HfdZ+Y65zUFraWzRe8PSnaez
+        controls :
+         -
+           name : Lib_Date
+           identifier : 0x235fe3140e3b4ae2
+           internal_properties : BwAAAAcAAAAeTYtW4NByBbt90yNqJTRhZAC8yldbtIbfwiG3A6pC9rrMslN/rTdz8oCRyh5u7TQcitSK+tvW2YACkvjAfpX1togCpckQGp9FXv8Dx4HZFXfa3Lut39ePUXyrGtjoZVTnbEJ+q0XgPQYM56Okk0omaGN/xMSEGUyGSNu36bZO70Wa6OefOiXF+8mkiaUjf9ZZqW14oUJRxX7vTZxK/eh7/Tuod/pa9Me+vmIaXyDJsB7FmXJ/KwWIF8+ARXKC52ST2dfOaMubwn1mP1BcSAc4ngcqfCnv+H6aYKwx3KPCW3N6ooceSCydsrm9VG6MjuH9MEbWb8zjow+FoRx7ALyYvbqYRehAVAYkEau5fv0OnfETGw==
+           properties :
+            x : 6
+            y : 2
+            width : 455
+            height : 20
+           type : 3
+           code_elements :
+            type_code : 2
+            p_codes : []
+        code_elements :
+         type_code : 82
+         p_codes :
+          -
+            code : |1-
+             
+            type : 14
+          -
+            code : |1-
+             i = TableIndiceRupture(Break_Head)
+             
+             Table_Rewards[i].Lib_Date = Table_Rewards.Col_Date
+            type : 21
+          -
+            type : 250
+            enabled : false
+       bottom :
+        name : Break_Foot
+        identifier : 0x235fe2cd0d8f38c7
+        internal_properties : BwAAAAcAAADiO0WtP0bZSnQi6+gfoeAdwodP0MjqGvI0wgMKFTKPuHN/g+P3wLNgpxndSlzJYRMWkXM3eEI8A8PJuOxOjJ7Gs4Ji4wfQxvIyWKxrXK5tBkVwayyzAWjamiUMk/INaaXnspnSBs1AdUEOqS6gSPUuXLrtGGUodQwlk7Xo6Vmn97osi/LhqB/z/pJjgmQkM3woLuw7AmucD4sVCVMXJFjd1+Wf1p5Zjq2Vj4AFanmpu1o=
+        controls : []
+        code_elements :
+         type_code : 82
+         p_codes :
+          -
+            type : 250
+            enabled : false
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 15
+        enabled : false
+      -
+        type : 16
+        enabled : false
+      -
+        type : 19
+        enabled : false
+      -
+        type : 20
+        enabled : false
+      -
+        type : 21
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 33
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : Img_iOS
+    identifier : 0x235fc229041bb652
+    internal_properties : BwAAAAcAAADN1lzqc/pqSlI+dtMnsqQVcKN9ytxOYW2mb1fqEx345EzgyVunEqXneM4YeED/oDagUNIMi1FY+SGRVUJ3122/+Ai8ZE5pfo1i8RVguDx8UeVGIMZo08FxyvDbIXocF2ptcW59igfRTv8qjdRiPs2WesErJiSGtDivDDA93Z//C5ocW9tAs9elA1l3AQwpaK7dYRIw0Dmhc+vyp2zC3FTaTuSBSMMqlOodlF8znkQWdcKPf3UdiGT1EK6ovfzZX550yeK3GVotgQAGHIjaBubbvxknm8IXrRI7ITmsUjcYlmijsqmbaq3RrwZYfCeaaxAkiwkUxKb2/uv9b7vmrWt+xEwfsYC7UeYFlv2yv7quu7CTDJ0lmn+ajk64ql7NduExmlmHa1DAf7TyhSI10F2LU4T++lP/sVmGMo0EL1KJIWLOrfztmTUGEiqhIsgYOLGAx6WyVZTCtJYUmH3q20Y+UbHuB00CNIkHOySP5j/tA4t1zqo7EakZnWzEbE289T15p0k8UB5cu4bCTaRfDhwqwbrgYLch7paOYsrX9GA46DyOfQ3Ibaju/cMEx5hyE9kLCATppbfq8LJBrG5Y7W+MNri6Cp44DnNXgzEyQU/G2Ek=
+    properties :
+     x : -56
+     y : 32
+     width : 16
+     height : 16
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : Img_Android
+    identifier : 0x235fc22c041fc277
+    internal_properties : BwAAAAcAAABwMIFqd1Db5kvxuZF9Pkv4yCO/sGjEHuN/nsBzjei4qpQBN+YiYYE0fuALT6L4SuifMyIjfOCoUs+/BaCQF/nyAKjdpkY7EaEHGJT8J8iH3lvIdcA4TfksQlNSlSHeBvuX4tnx3BI6RDACv47UnvX8O1gmbp57Cs8A5ZPG3YIIBgRbm4eRJH0i5SIIwgNnVfjnNRnGnxSm7WJiqkCcKKpu/bOXiOsV05YqHB2sPVFvTEoZXrq6Cj8EE3SrNXl0tFgrOKEoBDTw80rVY1BCnMnRc2zpUXscNYKgkci2HNTpyidFmlBxsSabW6Bpd1pUMJFEphV1zRXaB2HMhXHW/puAJc4uT7J6R541geqc7i5RMnEdyNEYgxHZlg2Rb4wShC3hpeLqJCxWvLBcmG0zB+o3135WJpCuxC0FPLcCg1FzPWjtraFsz/FZjrOOV545WLubFhEOmSlXlY949Lh/rgT+e03IfTHR0bdTS2WfY3fIQoihDhieYlIensFYRtSlbRRIpS8Ld9mw1sKCuewtV3qsfqZrtkCzJq5pswYQenj1p7RnorbevGUNNkVg6XRD+6hOiv/SOwWFIljJlW8VlHEJD5B2pYfmn6O+C6w3
+    properties :
+     x : -56
+     y : 54
+     width : 16
+     height : 16
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x235f9f2e014a10a1
+  internal_properties : BwAAAAcAAAAI4CwAC99IH2nbdZLbleIgf1/6wjoyKlMYYkiouifE69+lItUf+8BBFZhbK7QGzGpyHcPB0+u0Wz7xP53GU9re/pyZbJ9q103lErDZYhi3l/dTUMwtIh7YuSEtHakGcCt74yv8k4skjBKX3F9R9VROo+23uqi4EmN+i75quSc+v52hP55uZtrfcZWKNIsk5+3nERQAqsMW7T6pO8fNT/Q/8vWYWoHMmNyU3G7oN5rVwrDNByFqkZrkJkisS9VobendKouAP4ZeCPOdkHwTYoh7Hz9Alv7yIeA=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : BwAAAAcAAAA3C4gEBkdcqALJn3oxStoTOO6MerIJDQMQBCZS9DN1ZbCPWVwXdpkLPnSnNNw5x2bRCnFM4/eIux0jyLa8UcI1CedMU8/0lp/YEDpKqg==
+  controls :
+   -
+     name : InfoRefresh
+     identifier : 0x236003fa10214c11
+     internal_properties : BwAAAAcAAACF2rkJFQ0mQqbCLMmKtr/C0pBiD8p9iUPqu/HyWDDFII0XWKbJSBO4FEkDidgVU9NSkgQwEMzJ0qCNIw351reoK8X5DySwOzNJjl1SPNxg5mQSMpSFgSAIJ88=
+     code_elements :
+      type_code : 62
+      p_codes :
+       -
+         type : 15
+         enabled : false
+       -
+         type : 16
+         enabled : false
+       -
+         type : 39
+         enabled : false
+       -
+         type : 17
+         enabled : false
+   -
+     name : From
+     identifier : 0x2360067111fcea59
+     internal_properties : BwAAAAcAAABr4XIWu/5JRfusCRNQ2qCbFgAs8P0YrGYxI2ALmF8StHRMpYIE3srKcm35gVjQDYdUY/+BEn0VyIu0+jJqRUABJXKeeXBdqWvef1xP+n93wrfkaA==
+     code_elements :
+      type_code : 62
+      p_codes :
+       -
+         type : 15
+         enabled : false
+       -
+         type : 16
+         enabled : false
+       -
+         type : 39
+         enabled : false
+       -
+         type : 17
+         enabled : false
+   -
+     name : Developer
+     identifier : 0x235fde830c2f749a
+     internal_properties : BwAAAAcAAAARYDcjy9y53APx7o8viAo+mLwlSI7pKqNXGUEFZgtOtCRkraPsB5VAFg58v6TvTMUQF9tlrklnoHAJ3VbBN6uo/0SuGGNUgWWzjZzyvTqCShSekg==
+     code_elements :
+      type_code : 62
+      p_codes :
+       -
+         type : 15
+         enabled : false
+       -
+         type : 16
+         enabled : false
+       -
+         type : 39
+         enabled : false
+       -
+         type : 17
+         enabled : false
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      // init vars
+      i, FileID, Delay sont des entiers
+      Parsed, Tmp sont des chaines
+      PageQuery est un htmlDocument
+      SettingsUpdate, SmsApiEnabled sont des booléens
+      
+      // init arrays
+      PageTable est une tableau de htmlNoeuds
+      Config est un tableau associatif de variants
+      
+      // init structure
+      Reward_Data_Struct est une structure
+      	Code, OS, Reward, Added sont des chaines
+      fin
+      Reward_Data est une Reward_Data_Struct
+      Rewards_Data est un tableau de Reward_Data_Struct
+      
+      // parallel task
+      Task est une TâcheParallèle
+      
+      // does settings file exist?
+      FilesPath est une chaine = (frepexe + [fsep])
+      SettingsFile est une chaine = (FilesPath + "Settings.json")
+      
+      selon fFichierExiste(SettingsFile)
+      	CAS vrai
+      		Settings est un json
+      		
+      		Settings = fChargeTexte(SettingsFile)
+      		Config = JSONVersVariant(Settings)
+      		
+      		pour chaque Key de ["PreferredOs", "LatestCode"]
+      			si Config[Key]..Existe = faux ALORS
+      				TableauInsère(Config, Key)
+      				
+      				si SettingsUpdate = faux ALORS
+      					SettingsUpdate = vrai
+      				FIN
+      			FIN
+      		FIN
+      		si SettingsUpdate = vrai ALORS
+      			FileID = fouvre(SettingsFile, foLectureEcriture)
+      		FIN
+      		
+      	cas faux
+      		// default values
+      		Config["AutoRefresh"] = 6000
+      		Config["RowsTotal"] = 0
+      		Config["PreferredOs"] = ""
+      		Config["LatestCode"] = ""
+      		
+      		// write data in file!
+      		Sérialise(Config, Parsed, psdJSON)
+      		
+      		FileID = fcrée(SettingsFile)
+      		si ErreurDétectée = vrai ALORS
+      			TitreSuivant("Error")
+      			Erreur("Could not create settings file.", "", ErreurInfo(errMessageSystème))
+      			
+      			FinProgramme
+      		FIN
+      		
+      		SettingsUpdate = vrai
+      FIN
+      si SettingsUpdate = vrai ALORS
+      	fEcrit(FileID, Parsed)
+      	fFerme(FileID)
+      	
+      	SettingsUpdate = faux
+      FIN
+      
+      // sms api feature
+      ProcSms est une chaîne = (FilesPath + "SmsApi.txt")
+      SI fFichierExiste(ProcSms) = Faux ALORS
+      	TitreSuivant("Erreur")
+      	Erreur("Could not load the SMS API feature.", "", ErreurInfo)
+      	
+      	RETOUR
+      FIN
+      
+      ProcSms = fChargeTexte(ProcSms)
+      SI ProcSms = "" ALORS
+      	TitreSuivant("Erreur")
+      	Erreur("Could not load the SMS API feature.", "", ErreurInfo)
+      	
+      	RETOUR
+      FIN
+      
+      ProcSms = UTF8VersChaîne(ProcSms, alphabetDéfaut)
+      
+      ProcRes est une chaîne = Compile("SmsApi", ProcSms)
+      SI ErreurDétectée = Vrai ALORS
+      	TitreSuivant("Erreur")
+      	SELON ProcRes
+      		CAS "ERR"
+      			Erreur(ErreurInfo)
+      		AUTRE CAS
+      			Erreur(ProcRes)
+      	FIN
+      	
+      	RETOUR
+      sinon
+      	SmsApiEnabled = vrai
+      FIN
+      
+      // footer
+      Delay = Config["AutoRefresh"]
+      Delay = (Delay / 100)
+      
+      Message(InfoRefresh, ChaîneConstruit("Auto refresh every %1 second%2", Delay, (Delay >= 2 ? "s" sinon "")))
+   -
+     code : |1-
+      SI TimerSys(Refresh, Config["AutoRefresh"], 1) = 0 ALORS
+      	TitreSuivant("Error")
+      	Erreur("Could not create the timer...")
+      	
+      	finprogramme
+      FIN
+      
+      	procédure interne Refresh
+      		ExécuteTraitement(MaFenêtre, trtDemandeMiseAJour)
+      	FIN
+     type : 34
+   -
+     code : |1-
+      Task = TâcheParallèleExécute(GrabData)
+      
+      	procédure interne GrabData()
+      		PageQuery = HTMLOuvre("https://ucngame.com/codes/idle-office-tycoon-code/", depuisURL)
+      		PageTable <- HTMLChercheElémentParBalise(PageQuery, "table")
+      		
+      		SI PageTable..Occurrence = 1 ALORS
+      			si Rewards_Data..Occurrence >= 1 ALORS
+      				TableauSupprimeTout(Rewards_Data)
+      			FIN
+      			
+      			POUR CHAQUE Data, d de PageTable[1].tbody[1]
+      				VariableRAZ(Reward_Data)
+      				
+      				Reward_Data.Code = Data.td[1].strong[1]..NoeudFils[1]..Texte
+      				
+      				Parsed = Data.td[2]..NoeudFils[1]..Texte
+      				POUR CHAQUE Key de ["iOS", "Android"]
+      					SI Contient(Parsed, Key) = Faux ALORS
+      						CONTINUER
+      					FIN
+      					si (Config["PreferredOs"] <> "") _et_ (Config["PreferredOs"] <> Key) ALORS
+      						continuer
+      					FIN
+      					
+      					// os
+      					Reward_Data.OS = Key
+      					
+      					// remove os info
+      					Parsed = Remplace(Parsed, (" (" + Key + ")"), "")
+      					
+      					// is there a date in string?
+      					Reward_Data.Added = "Unknown"
+      					SI Contient(Parsed, "(Added") = Vrai ALORS
+      						// keep data
+      						Tmp = Parsed
+      						
+      						Parsed = Droite(Parsed, (Taille(Parsed) - Position(Parsed, " (Added", 0, DepuisFin)))
+      						SI Parsed <> "" ALORS
+      							Parsed = Remplace(Parsed, ["(Added on ", ")"], "")
+      							Parsed = ChaîneFormate(Parsed, ccSansEspace)
+      							
+      							// date
+      							Reward_Data.Added = Parsed
+      							
+      							// resend other part of string
+      							Parsed = Gauche(Tmp, (Position(Tmp, " (Added", 0, DepuisDébut) - 1))
+      						FIN
+      					FIN
+      					
+      					// keep data
+      					Tmp = Parsed
+      					
+      					// remove useless spaces
+      					Parsed = ""
+      					POUR TOUTE CHAÎNE Part DE Tmp SEPAREE PAR " "
+      						Parsed += ([" "] + Part)
+      					FIN
+      					
+      					// reward
+      					Reward_Data.Reward = ChaîneFormate(Parsed, ccSansEspace)
+      		
+      					// add in array
+      					TableauAjoute(Rewards_Data, Reward_Data)
+      				FIN
+      			FIN
+      		FIN
+      	fin
+      
+      TâcheParallèleExécuteAprès(Task, DisplayData, (), tpoThreadPrincipal)
+      
+      	PROCÉDURE INTERNE DisplayData()
+      		si Table_Rewards..Occurrence >= 1 ALORS
+      			TableSupprimeTout(Table_Rewards)
+      		FIN
+      		
+      		Cnt est un entier = Rewards_Data..Occurrence
+      		si Cnt >= 1 ALORS
+      			si (Config["RowsTotal"] > 0) _et_ (Cnt > Config["RowsTotal"]) ALORS
+      				Config["RowsTotal"] = Cnt
+      				
+      				// update settings file
+      				SI SettingsUpdate = Faux ALORS
+      					SettingsUpdate = Vrai
+      				FIN
+      				
+      				// notification
+      				Notify est un toast
+      				Notify..CadrageVertical = cvMilieu
+      				Notify..CadrageHorizontal = chCentre
+      				Notify..CouleurFond = RougeClair
+      				Notify..FermeAuClic = vrai
+      				Notify..Opacité = 80
+      				Notify..Superposable = faux
+      				Notify..Texte = (gPoliceGras + gStylo(Blanc) + "New codes have been added!" + gPoliceGras(Faux))
+      				
+      				ToastAffiche(Notify)
+      			FIN
+      			
+      			POUR CHAQUE Data de Rewards_Data
+      				i = TableAjouteLigne(Table_Rewards, Data.Code, "", Data.Added, Data.Reward)
+      				
+      				Table_Rewards.Col_OS[i].Img_OS = {"Img_" + Data.OS, indChamp}
+      			FIN
+      			
+      			// send sms?
+      			si SmsApiEnabled = vrai ALORS
+      				si Config["LatestCode"] <> "" ALORS
+      					i = tableaucherche(Rewards_Data, tcLinéaire, "Code", Config["LatestCode"])
+      					si i <> -1 ALORS
+      						pour n = Cnt _a_ i _pas_ -1
+      							TableauSupprime(Rewards_Data, n)
+      						FIN
+      					FIN
+      					
+      					si Rewards_Data..Occurrence >= 1 ALORS
+      						SmsApiUrl est une chaîne
+      						SmsApiQuery est une httpRequête
+      						SmsApiResponse est une httpRéponse
+      						
+      						pour chaque Data de Rewards_Data
+      							SmsApiUrl = ExécuteTraitement("SmsApi", trtProcédure, Data.Code, Data.Reward, Data.Added, Data.OS)
+      							
+      							SmsApiQuery..URL = SmsApiUrl
+      							SmsApiResponse = HTTPEnvoie(SmsApiQuery)
+      							SI SmsApiResponse..CodeEtat <> 200 ALORS
+      								TitreSuivant("Error")
+      								Erreur(ErreurInfo(errComplet))
+      							sinon
+      								Config["LatestCode"] = Data.Code
+      								
+      								// update settings file
+      								si SettingsUpdate = faux ALORS
+      									SettingsUpdate = Vrai
+      								FIN
+      							FIN
+      						FIN
+      					FIN
+      				FIN
+      			FIN
+      			
+      			// just do it!
+      			si SettingsUpdate = Vrai ALORS
+      				Sérialise(Config, Parsed, psdJSON)
+      				
+      				FileID = fOuvre(SettingsFile, foLectureEcriture)
+      				fEcrit(FileID, Parsed)
+      				fFerme(FileID)
+      				
+      				SettingsUpdate = faux
+      			FIN
+      		FIN
+      	FIN
+      
+      // indent data
+      Table_Rewards..RetraitGauche = 10  
+     type : 234
+   -
+     code : |1-
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+ code_parameters :
+  internal_properties : BwAAAAcAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : Fenêtre1
+resources :
+ string_res :
+  identifier : 0x135f9f2e000210a1
+  internal_properties : BwAAAAcAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

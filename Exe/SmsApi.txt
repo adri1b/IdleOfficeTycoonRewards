@@ -1,0 +1,21 @@
+PROCÉDURE SmsApi(Code est une chaîne, Reward est une chaîne, Added est une chaîne, Os est une chaîne)
+
+// layout characters
+RcChar est une chaîne = "%0D"
+SpaceChar est une chaîne = "%20"
+
+// message
+Msg est une chaîne = ("Added: " + Added + RC + "Code: " + Code + " (" + Os + ")" + RC + Reward)
+
+// parse message
+SI Contient(Msg, " ") = Vrai ALORS
+	Msg = Remplace(Msg, " ", SpaceChar)
+FIN
+SI Contient(Msg, RC) = Vrai ALORS
+	Msg = Remplace(Msg, RC, RcChar)
+FIN
+
+// url
+ApiUrl est une chaîne = ChaîneConstruit("https://smsapi.free-mobile.fr/sendmsg?user=12345678&pass=CTpldIPnw8y3QG&msg=%1", Msg)
+
+RENVOYER ApiUrl
